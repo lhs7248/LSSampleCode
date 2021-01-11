@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LSWindow.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,6 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+//    LSWindow * window = [[LSWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
+//    window.backgroundColor = [UIColor whiteColor];
+//    
+//    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"install" bundle:[NSBundle mainBundle]];
+//    ViewController * vc = [storyboard instantiateInitialViewController];
+//    window.rootViewController = vc;
+//    
+//    [window makeKeyAndVisible];
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

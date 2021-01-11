@@ -10,12 +10,20 @@
 		17BD910125A8359A0012781C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD910025A8359A0012781C /* AppDelegate.m */; };
 		17BD910425A8359A0012781C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD910325A8359A0012781C /* SceneDelegate.m */; };
 		17BD910725A8359A0012781C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD910625A8359A0012781C /* ViewController.m */; };
-		17BD910A25A8359A0012781C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BD910825A8359A0012781C /* Main.storyboard */; };
 		17BD910C25A8359D0012781C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BD910B25A8359D0012781C /* Assets.xcassets */; };
 		17BD910F25A8359D0012781C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BD910D25A8359D0012781C /* LaunchScreen.storyboard */; };
 		17BD911225A8359D0012781C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD911125A8359D0012781C /* main.m */; };
 		17BD911C25A8359D0012781C /* LSTouchEventSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD911B25A8359D0012781C /* LSTouchEventSampleTests.m */; };
 		17BD912725A8359D0012781C /* LSTouchEventSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD912625A8359D0012781C /* LSTouchEventSampleUITests.m */; };
+		17BD914025A83CC90012781C /* LSViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD913F25A83CC90012781C /* LSViewA.m */; };
+		17BD914925A83CD40012781C /* LSViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD914825A83CD40012781C /* LSViewB.m */; };
+		17BD914F25A83D330012781C /* LSViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD914E25A83D330012781C /* LSViewC.m */; };
+		17BD915525A83D3F0012781C /* LSViewE.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD915425A83D3F0012781C /* LSViewE.m */; };
+		17BD915B25A83D460012781C /* LSViewF.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD915A25A83D460012781C /* LSViewF.m */; };
+		17BD916125A8470E0012781C /* LSViewD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD916025A8470E0012781C /* LSViewD.m */; };
+		17BD916725A850230012781C /* LSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD916625A850230012781C /* LSView.m */; };
+		17BD916E25AC3C260012781C /* LSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD916D25AC3C260012781C /* LSWindow.m */; };
+		17BD91E025AC56AA0012781C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BD91DE25AC56AA0012781C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +51,6 @@
 		17BD910325A8359A0012781C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		17BD910525A8359A0012781C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		17BD910625A8359A0012781C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		17BD910925A8359A0012781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BD910B25A8359D0012781C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BD910E25A8359D0012781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17BD911025A8359D0012781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +61,23 @@
 		17BD912225A8359D0012781C /* LSTouchEventSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTouchEventSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BD912625A8359D0012781C /* LSTouchEventSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTouchEventSampleUITests.m; sourceTree = "<group>"; };
 		17BD912825A8359D0012781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BD913E25A83CC90012781C /* LSViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewA.h; sourceTree = "<group>"; };
+		17BD913F25A83CC90012781C /* LSViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewA.m; sourceTree = "<group>"; };
+		17BD914725A83CD40012781C /* LSViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewB.h; sourceTree = "<group>"; };
+		17BD914825A83CD40012781C /* LSViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewB.m; sourceTree = "<group>"; };
+		17BD914D25A83D330012781C /* LSViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewC.h; sourceTree = "<group>"; };
+		17BD914E25A83D330012781C /* LSViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewC.m; sourceTree = "<group>"; };
+		17BD915325A83D3F0012781C /* LSViewE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewE.h; sourceTree = "<group>"; };
+		17BD915425A83D3F0012781C /* LSViewE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewE.m; sourceTree = "<group>"; };
+		17BD915925A83D460012781C /* LSViewF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewF.h; sourceTree = "<group>"; };
+		17BD915A25A83D460012781C /* LSViewF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewF.m; sourceTree = "<group>"; };
+		17BD915F25A8470E0012781C /* LSViewD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewD.h; sourceTree = "<group>"; };
+		17BD916025A8470E0012781C /* LSViewD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewD.m; sourceTree = "<group>"; };
+		17BD916525A850230012781C /* LSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSView.h; sourceTree = "<group>"; };
+		17BD916625A850230012781C /* LSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSView.m; sourceTree = "<group>"; };
+		17BD916C25AC3C260012781C /* LSWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWindow.h; sourceTree = "<group>"; };
+		17BD916D25AC3C260012781C /* LSWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWindow.m; sourceTree = "<group>"; };
+		17BD91DF25AC56AA0012781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +128,19 @@
 		17BD90FE25A8359A0012781C /* LSTouchEventSample */ = {
 			isa = PBXGroup;
 			children = (
+				17BD916B25AC3C110012781C /* window */,
 				17BD90FF25A8359A0012781C /* AppDelegate.h */,
 				17BD910025A8359A0012781C /* AppDelegate.m */,
 				17BD910225A8359A0012781C /* SceneDelegate.h */,
 				17BD910325A8359A0012781C /* SceneDelegate.m */,
 				17BD910525A8359A0012781C /* ViewController.h */,
 				17BD910625A8359A0012781C /* ViewController.m */,
-				17BD910825A8359A0012781C /* Main.storyboard */,
+				17BD916525A850230012781C /* LSView.h */,
+				17BD916625A850230012781C /* LSView.m */,
+				17BD913D25A83CBC0012781C /* Views */,
 				17BD910B25A8359D0012781C /* Assets.xcassets */,
 				17BD910D25A8359D0012781C /* LaunchScreen.storyboard */,
+				17BD91DE25AC56AA0012781C /* Main.storyboard */,
 				17BD911025A8359D0012781C /* Info.plist */,
 				17BD911125A8359D0012781C /* main.m */,
 			);
@@ -135,6 +163,34 @@
 				17BD912825A8359D0012781C /* Info.plist */,
 			);
 			path = LSTouchEventSampleUITests;
+			sourceTree = "<group>";
+		};
+		17BD913D25A83CBC0012781C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17BD913E25A83CC90012781C /* LSViewA.h */,
+				17BD913F25A83CC90012781C /* LSViewA.m */,
+				17BD914725A83CD40012781C /* LSViewB.h */,
+				17BD914825A83CD40012781C /* LSViewB.m */,
+				17BD914D25A83D330012781C /* LSViewC.h */,
+				17BD914E25A83D330012781C /* LSViewC.m */,
+				17BD915F25A8470E0012781C /* LSViewD.h */,
+				17BD916025A8470E0012781C /* LSViewD.m */,
+				17BD915325A83D3F0012781C /* LSViewE.h */,
+				17BD915425A83D3F0012781C /* LSViewE.m */,
+				17BD915925A83D460012781C /* LSViewF.h */,
+				17BD915A25A83D460012781C /* LSViewF.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17BD916B25AC3C110012781C /* window */ = {
+			isa = PBXGroup;
+			children = (
+				17BD916C25AC3C260012781C /* LSWindow.h */,
+				17BD916D25AC3C260012781C /* LSWindow.m */,
+			);
+			path = window;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BD910F25A8359D0012781C /* LaunchScreen.storyboard in Resources */,
+				17BD91E025AC56AA0012781C /* Main.storyboard in Resources */,
 				17BD910C25A8359D0012781C /* Assets.xcassets in Resources */,
-				17BD910A25A8359A0012781C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BD916E25AC3C260012781C /* LSWindow.m in Sources */,
+				17BD916725A850230012781C /* LSView.m in Sources */,
+				17BD916125A8470E0012781C /* LSViewD.m in Sources */,
+				17BD915B25A83D460012781C /* LSViewF.m in Sources */,
+				17BD914925A83CD40012781C /* LSViewB.m in Sources */,
 				17BD910725A8359A0012781C /* ViewController.m in Sources */,
+				17BD914F25A83D330012781C /* LSViewC.m in Sources */,
+				17BD915525A83D3F0012781C /* LSViewE.m in Sources */,
 				17BD910125A8359A0012781C /* AppDelegate.m in Sources */,
 				17BD911225A8359D0012781C /* main.m in Sources */,
 				17BD910425A8359A0012781C /* SceneDelegate.m in Sources */,
+				17BD914025A83CC90012781C /* LSViewA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,20 +369,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		17BD910825A8359A0012781C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17BD910925A8359A0012781C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17BD910D25A8359D0012781C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				17BD910E25A8359D0012781C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		17BD91DE25AC56AA0012781C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BD91DF25AC56AA0012781C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FYG9D6WTR;
 				INFOPLIST_FILE = LSTouchEventSample/Info.plist;
@@ -460,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FYG9D6WTR;
 				INFOPLIST_FILE = LSTouchEventSample/Info.plist;

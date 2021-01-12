@@ -30,7 +30,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [super touchesEnded:touches withEvent:event];
-    [self printResponderChain];
+//    [self printResponderChain];
     NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
 }
 

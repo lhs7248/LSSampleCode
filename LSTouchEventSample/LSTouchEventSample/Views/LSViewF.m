@@ -12,10 +12,8 @@
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
 
-    UIView * view = [super hitTest:point withEvent:event];
-    
     NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
-
+    UIView * view = [super hitTest:point withEvent:event];
     return view;
 }
 
@@ -29,9 +27,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+    NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
     [super touchesEnded:touches withEvent:event];
 //    [self printResponderChain];
-    NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
 }
 
 - (void)printResponderChain
@@ -47,21 +45,21 @@
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super touchesEnded:touches withEvent:event];
     NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
+    [super touchesEnded:touches withEvent:event];
     
 }
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super touchesEnded:touches withEvent:event];
     NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
+    [super touchesEnded:touches withEvent:event];
     
 }
 
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super touchesEnded:touches withEvent:event];
     NSLog(@"%@--%s",NSStringFromClass([self class]),__func__);
+    [super touchesEnded:touches withEvent:event];
     
 }
 

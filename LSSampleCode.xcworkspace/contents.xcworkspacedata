@@ -4,4 +4,7 @@
    <FileRef
       location = "group:LSTouchEventSample/LSTouchEventSample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LSKVO/LSKVO.xcodeproj">
+   </FileRef>
 </Workspace>
